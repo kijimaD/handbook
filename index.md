@@ -1,8 +1,8 @@
 # トップページ
 
-## このガイドブックの概要
+## このハンドブックの概要
 
-このガイドブックはGitLab社<a href="https://about.gitlab.com/handbook/">Handbook | GitLab</a>に多大なる影響を受けて作成を決意したものです。
+このハンドブックはGitLab社<a href="https://about.gitlab.com/handbook/">Handbook | GitLab</a>にインスパイアされて作成を決意したものです。
 
 ## 大切にしている価値観
 
