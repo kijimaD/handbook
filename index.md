@@ -29,10 +29,9 @@
 0. ファイル分割は慎重に行わなければいけません - ページごとで内容を分けると、たどるのが面倒だからです。1ファイル10万字を目安に分割します。まだ行う予定はありません。
 0. 見出しを適切に設定します - 見出しレベル1`#`はファイル名で使用します。見出しレベル2`##`は文章の見出しで使用します。
 0. リンクを追加するときはリンク名を正しく設定します - たとえば`[Handbook \| GitLab](https://about.gitlab.com/handbook/)`というふうに。Google Chromeの場合、[Create Link](https://chrome.google.com/webstore/detail/create-link/gcmghdmnkfdbncmnmlkkglmnnhagajbm?hl=ja) を使用すると簡単に取得できます。
-0. アルファベットと日本語の間には、半角でスペースを入れます - 例: `私は Ruby を使う` これは検索にかかりやすくするのと、読みやすさのためです。
 
 ## 編集
 
-0. ローカル環境で Mark Down を編集するときは [grip](https://github.com/joeyespo/grip) を利用すると便利です。
+0. ローカル環境でMark Downを編集するときは [grip](https://github.com/joeyespo/grip) を利用すると便利です。
 0. 図表を利用するときは [Mermaid Live Editor](https://mermaid-js.github.io/mermaid-live-editor/#/edit)を利用すると便利です。画像を表示しつつそのまま編集できます。
 0. 正しさ、読みやすさを向上させるために校正ツールを使用します。[textlint/textlint: The pluggable natural language linter for text and markdown\.](https://github.com/textlint/textlint)を使用してチェックします。
