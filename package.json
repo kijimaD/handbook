@@ -1,0 +1,25 @@
+{
+  "name": "handbook",
+  "version": "1.0.0",
+  "description": "有用な情報をまとめたリポジトリ管理型Wikiです。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kijimaD/handbook.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kijimaD/handbook/issues"
+  },
+  "homepage": "https://github.com/kijimaD/handbook#readme",
+  "dependencies": {
+    "textlint": "^11.8.2",
+    "textlint-rule-no-todo": "^2.0.1",
+    "textlint-rule-preset-ja-technical-writing": "^4.0.1"
+  }
+}
