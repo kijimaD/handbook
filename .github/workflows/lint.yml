@@ -25,4 +25,4 @@ jobs:
     - name: Install dependencies
       run: yarn install
     - name: linting markdown files
-      run: yarn textlint *.md
+      run: yarn textlint *.md docs/*.md
