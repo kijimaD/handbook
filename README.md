@@ -1,3 +1,5 @@
+[![textlint](https://github.com/kijimaD/handbook/actions/workflows/lint.yml/badge.svg)](https://github.com/kijimaD/handbook/actions/workflows/lint.yml)
+
 # handbook
 
 有用な情報をまとめたリポジトリ管理型Wikiです。
