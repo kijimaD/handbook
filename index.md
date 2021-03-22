@@ -63,8 +63,6 @@
 0. 図表を利用するときは [Mermaid Live Editor](https://mermaid-js.github.io/mermaid-live-editor/#/edit)を利用すると便利です。Mark Downで図表を表現できるので、再修正が簡単にできます。
 0. 正しさ、読みやすさを担保するために校正ツールを使用します。[textlint/textlint: The pluggable natural language linter for text and markdown\.](https://github.com/textlint/textlint)を使用してチェックします。表記ルールの一部はtextlintが検知し、修正を促します。
 
-## ブランチ
-
 ## 歴史
 
   * 1998年
