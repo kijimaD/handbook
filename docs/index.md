@@ -1,11 +1,11 @@
 # トップページ
 
-## このハンドブックの概要
+## 📗このハンドブックの概要
 
 このハンドブックはGitLab社<a href="https://about.gitlab.com/handbook/">Handbook | GitLab</a>に触発されて作成を決意したものです。
 自分や知識を文書化したものとして、未来の自分や他人が再利用できるようにします。
 
-## 大切にしている価値観
+## 💎大切にしている価値観
 
 0. **好きなことをやる** - 好きなことをやっているときが一番幸福で、能力を発揮できると考えています。
 好きの程度はプライベートな時間の多くを過ごすか、お金を払ってでもやるか、ということでテストできます。たとえばバンドとして夜と空いた時間に演奏をして、昼間は生活のためにアルバイトする若者がいるとします。彼は演奏するために生活費を稼いでいるわけで、相当好きだと言えるでしょう。
@@ -62,6 +62,8 @@
 0. ローカル環境でMark Downを編集するときは [grip](https://github.com/joeyespo/grip) を利用すると便利です。
 0. 図表を利用するときは [Mermaid Live Editor](https://mermaid-js.github.io/mermaid-live-editor/#/edit)を利用すると便利です。Mark Downで図表を表現できるので、再修正が簡単にできます。
 0. 正しさ、読みやすさを担保するために校正ツールを使用します。[textlint/textlint: The pluggable natural language linter for text and markdown\.](https://github.com/textlint/textlint)を使用してチェックします。表記ルールの一部はtextlintが検知し、修正を促します。
+
+## ブランチ
 
 ## 歴史
 
