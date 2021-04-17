@@ -80,14 +80,18 @@ https://qiita.com/KDE_SPACE/items/e21bb31dd4d9c162c4a6
 ### 改善メモ
 - undo履歴を保持しないときがあります。3つくらいしか戻れないときがあり、この問題は未着手です。
 - `markdown-mode`でHelm-M-xが作動しません。
+
 ### Mac
 - Macでは`query-replace`(`M-%`)が奪われて押せないので、`query-replace-regexp`(`C-M-%`)します。
+
 ### Helm
 - Helmのサーチ中のものをコピーするときには、`helm-copy-to-buffer`(`C-c C-i`)します。
+
 ### Projectile
 - プロジェクト全体のファイル名検索は`projectile-find-file`(`C-c p f`)が便利です。
 - Modelなど、ディレクトリが絞り込めているときは`projectile-rails`で検索が便利です。ただキーバインドがあまりに多すぎるので、使用頻度が低いものは`projectile-find-file`したほうがいいでしょう。
 - 内容を検索するときには`helm-git-grep`を使います。
+
 ### spring rspec
 いつのまにかEmacsでspringが動かなくなっていました。コマンドでは`spring rspec`などで動かせるが、Emacsではふつうの`bundle exec ...`になっていました。前は早くできていたはず。ネットの記事を参考にします。
 
