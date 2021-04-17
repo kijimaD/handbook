@@ -85,7 +85,7 @@ https://qiita.com/KDE_SPACE/items/e21bb31dd4d9c162c4a6
 - Macでは`query-replace`(`M-%`)が奪われて押せないので、`query-replace-regexp`(`C-M-%`)します。
 
 ### Helm
-- Helmのサーチ中のものをコピーするときには、`helm-copy-to-buffer`(`C-c C-i`)します。
+- Helmのサーチ中のものをコピーするときには、`helm-copy-to-buffer`(`C-c C-i`)します。あるいは`helm-kill-seletion-and-quit`(`C-u C-c C-k`)も使えます。
 
 ### Projectile
 - プロジェクト全体のファイル名検索は`projectile-find-file`(`C-c p f`)が便利です。
@@ -112,27 +112,3 @@ springを自動で検出してくれるらしいのですが(何より今まで�
 `mysql -u root -p`
 `SHOW ENGINE INNODB STATUS;`してTRANSACTIONSの部分を確認する。
 Thread IDを調べて`kill id`
-
-## 条文リンク
-<a href="https://qiita.com/h-naito/items/92be6487900a1398866f">NodeListとは？ - Qiita</a>
-なぜだ。aタグをどこで付与してる?
-- `renderResume`
-- `replaceTextWithAutoLink` で3条文タイプの変換(build_系を呼び出す)を行う。
-- `buildGlobalLawArticleForContinuum`, `buildGlobalLawArticleForSingle`
-- 複数、単体で正規表現を用いて。`generateRegExpForGlobalLawArticle`ここを変えるとglobalLawにマッチしなくて、全部基本条文になったりする。datatypeをセットする。
-- `replaceSingleWithLink` aタグをつける。replace recursiveをラップしてる。
-- `replaceRecursive`共通して使われている。ここでようやく値をreplaceする。nodeListでループする。btn_refがあったりするとlawArticle用data属性がつく。
-
-build系は`buildAutoLinkNode`を使ってaリンクを作る。第5引数にmatchしたものが入り、<a>match</a>になる。置換はここでしているとわかるが、その目標はどうやってサーチしてるか。
-
-`replaceTextWithAutoLink`の`law_articles`の変換をオフにすると後半2つはリンクさえなくなることを確認した。
-
-点つなぎがうまくいっていないときの挙動。点つなぎが作動せず、singleのみが働いてglobalLawArticleがつく。後ろの条はマッチしないので基本条文になる。
-
-- 木構造を再帰で処理すると、単に順にたどるだけになるのか。lintとかとは違う。nodeのときはスルーする。
-- 引数で分岐する共通関数が複数あるからややこしい。
-- 走査は複数回行われる？複数 → 単数 → 基本
-
-```
-</div><div>②双務契約</div><div>③有償契約</div>④不要式契約<br><div>※賃借権は継続的契約であることから、人的信頼関係が基礎となる</div>   →信頼関係破壊の法理︓債務不履行解除の修正（後述）<br><br>【参考】潮見佳男『入門民法(全)』（ 2007年、有斐閣）314～316頁<br><br><h3 id="d6f6">2 不動産賃借権の特徴</h3><strong>(1) 不動産賃借権の物権化</strong><br><div>・不動産の賃貸借は、債権であるが、賃借人の保護の必要性から、物権化している</div><div>・不動産賃借権には、民法605条、借地借家法10条・31条による対抗要件がある</div><div>・不動産賃借権は、借地借家法3条・29条によって存続期間を長期化させ、また賃貸人の更新拒絶には正当事由が必要である（借地借家法6条・28条）</div><div>・建物買取請求権や借地権の譲渡・転貸の許可の制度がある</div><div>・不動産賃借権は時効によって取得することも可能（最判昭 43・10・8）</div>・さらに、法律により賃借権が発生する場合もある（法定賃借権－仮登記担保法10条）<br><br>第605条 不動産の賃貸借は、これを登記したときは、その不動産について物権を取得した者その他の第三者に対抗することができる。<br><br><strong><span style="color: rgb(79, 129, 189);">
-```
