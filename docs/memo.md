@@ -117,7 +117,7 @@ https://qiita.com/KDE_SPACE/items/e21bb31dd4d9c162c4a6
 - `projectile-toggle-between-implementation-and-test`(`C-c p t`) - テストとプロダクトコードを切り替えます。
 
 ### robe
-- `robe-doc`(`C-c C-d`)でrubyメソッドを調べられます。gemがあるプロジェクトのGemfileで`pry`,`pry-doc`をインストールして実行するとpryが起動して、以後使えるようになります。これは補完の`company.el`と連携させているため、pryを起動しないことにはgemの補完は表示されません。
+- `robe-doc`(`C-c C-d`)でRubyメソッドを調べられます。gemがあるプロジェクトのGemfileで`pry`,`pry-doc`をインストールして実行するとpryが起動して、以後使えるようになります。これは補完の`company.el`と連携させているため、pryを起動しないことにはgemの補完は表示されません。
 
 ### dired
 - diredで一気に置換したいとき、`wdired-change-to-wdired-mode`で編集モードにして`C-c C-c`で実行します。
@@ -168,3 +168,22 @@ set -g theme_powerline_fonts no
 ```
 再起動すると反映されます。
 
+## 条文リンク
+<a href="https://qiita.com/h-naito/items/92be6487900a1398866f">NodeListとは？ - Qiita</a>
+なぜだ。aタグをどこで付与してる?
+- `renderResume`
+- `replaceTextWithAutoLink` で3条文タイプの変換(build_系を呼び出す)を行う。
+- `buildGlobalLawArticleForContinuum`, `buildGlobalLawArticleForSingle`
+- 複数、単体で正規表現を用いて。`generateRegExpForGlobalLawArticle`ここを変えるとglobalLawにマッチしなくて、全部基本条文になったりする。datatypeをセットする。
+- `replaceSingleWithLink` aタグをつける。replace recursiveをラップしてる。
+- `replaceRecursive`共通して使われている。ここでようやく値をreplaceする。nodeListでループする。btn_refがあったりするとlawArticle用data属性がつく。
+
+build系は`buildAutoLinkNode`を使ってaリンクを作る。第5引数にmatchしたものが入り、<a>match</a>になる。置換はここでしているとわかるが、その目標はどうやってサーチしてるか。
+
+`replaceTextWithAutoLink`の`law_articles`の変換をオフにすると後半2つはリンクさえなくなることを確認した。
+
+点つなぎがうまくいっていないときの挙動。点つなぎが作動せず、singleのみが働いてglobalLawArticleがつく。後ろの条はマッチしないので基本条文になる。
+
+- 木構造を再帰で処理すると、単に順にたどるだけになるのか。lintとかとは違う。nodeのときはスルーする。
+- 引数で分岐する共通関数が複数あるからややこしい。
+- 走査は複数回行われる。複数 → 単数 → 基本
