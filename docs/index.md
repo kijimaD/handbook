@@ -144,13 +144,8 @@
   * 2020年
     * 鹿児島大学を卒業し、就職のため東京に引っ越しました。
     * 本を参考に、Rubyでシューティングゲームを作りました。[ban-ban-don](https://github.com/kijimaD/ban-ban-don)
-<<<<<<< Updated upstream
-    * フルタイムでプログラマーとして働きはじめました。少人数のチームだったため様々なことを行う必要がありました。`Ruby on Rails`,`MySQL`,`GAS`,`RSpec`,`Circle CI`などのタスクを行いました。
-    * 初のOSSコントリビュートを行いました。YouTube Analytics APIのドキュメントのリンクを修正するPRでした。https://github.com/googleapis/google-api-ruby-client/pull/1649
-=======
     * フルタイムでプログラマーとして働きはじめました。少人数のチームだったため様々なことを行う必要がありました。`Ruby on Rails`/`JavaScript`/`MySQL`/`GAS`/`RSpec`/`Circle CI`など様々なタスクを行いました。
     * 初のOSSコントリビュートを行いました。YouTube Analytics APIのドキュメントのリンクを修正するPRでした。 https://github.com/googleapis/google-api-ruby-client/pull/1649
->>>>>>> Stashed changes
 
   * 2021年
     * Reactを学ぶためにカンバンアプリを作成しました。[kanbany](https://github.com/kijimaD/kanbany)
