@@ -11,3 +11,7 @@ https://kijimad.github.io/handbook/ で公開しています。
 ## install
 
 `npm install`
+
+## lint
+
+`npm test`
