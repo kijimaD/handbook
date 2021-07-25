@@ -123,7 +123,7 @@
 
   * 2015年
     * Linuxに出会い、メインOSとして使いはじめました。
-    * Emacsと出会い、学びはじめました。知るきっかけは図書館にあったPerlの本の中でものすごく推していたことです。
+    * Emacsと出会い、学びはじめました。きっかけは図書館にあったPerlの本の中でものすごく推していたことです。
 
   * 2016年
     * 鹿児島大学に入学しました。経済情報、という学科でしたが、経済や経営のことに全く興味がありませんでした。
@@ -139,14 +139,16 @@
   * 2019年
     * Laravelで初めてのwebアプリを作りました。本の買取で使用するために必要だったものです。
     * 自分用のWikiをDokuWikiで作成しました。
-    * DokuWikiのテーマを自作し、DokuWiki公式ページに公開しました。
+    * DokuWikiのテーマを自作し、DokuWiki公式ページに公開しました。[kijimaD/bs4simple: Dokuwiki original theme\(use Bootstrap4\)\.](https://github.com/kijimaD/bs4simple)
 
   * 2020年
-    * 鹿児島大学を卒業し、東京に引っ越しました。
-    * 本を参考に、Rubyでゲームを作りました。
-    * フルタイムでプログラマーとして働きはじめました。主にRuby on Railsを使います。
-    * 初のOSSコントリビュートを行いました。YouTube Analytics APIのドキュメントのリンクを修正するPRでした。
+    * 鹿児島大学を卒業し、就職のため東京に引っ越しました。
+    * 本を参考に、Rubyでシューティングゲームを作りました。[ban-ban-don](https://github.com/kijimaD/ban-ban-don)
+    * フルタイムでプログラマーとして働きはじめました。少人数のチームだったため様々なことを行う必要がありました。`Ruby on Rails`,`MySQL`,`GAS`,`RSpec`,`Circle CI`などのタスクを行いました。
+    * 初のOSSコントリビュートを行いました。YouTube Analytics APIのドキュメントのリンクを修正するPRでした。https://github.com/googleapis/google-api-ruby-client/pull/1649
 
   * 2021年
-    * Emacsのパッケージを作成し、パッケージ管理システムMelpaに承認、公開しました。
-    * GitLabの文書にハマりました。取り組みの1つであるValues絵文字を導入しました。
+    * Reactを学ぶためにカンバンアプリを作成しました。[kanbany](https://github.com/kijimaD/kanbany)
+    * Emacsパッケージ[current-word-highlight](https://github.com/kijimaD/current-word-highlight)を作成しました。パッケージ管理システムMelpaに初投稿し、取り込まれました。
+    * 自然言語用のLintであるTextLintの、orgファイルに対応させる拡張を[textlint-plugin-org](https://github.com/kijimaD/textlint-plugin-org)を作成、npmに公開しました。[TextLint公式](https://github.com/textlint/textlint)にリンクを掲載しました。
+    * chromeの便利拡張CreateLinkのEmacsバージョン[create-link](https://github.com/kijimaD/create-link)を作成、Melpaに投稿し、取り込まれました。
