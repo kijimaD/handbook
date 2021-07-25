@@ -2,8 +2,8 @@
 
 ## 📗このハンドブックの概要
 
-このハンドブックはGitLab社<a href="https://about.gitlab.com/handbook/">Handbook | GitLab</a>に触発されて作成を決意したものです。
-自分や知識を文書化したものとして、未来の自分や他人が再利用できるようにします。
+この文書はGitLab社<a href="https://about.gitlab.com/handbook/">Handbook | GitLab</a>に触発されて作ったものです。
+技術というより、考え方や記録といった大まかな方向性を示したものです。技術関係は[kijimaD/roam: Notes](https://github.com/kijimaD/roam)にまとめます。
 
 ## 💎大切にしている価値観
 
@@ -144,8 +144,13 @@
   * 2020年
     * 鹿児島大学を卒業し、就職のため東京に引っ越しました。
     * 本を参考に、Rubyでシューティングゲームを作りました。[ban-ban-don](https://github.com/kijimaD/ban-ban-don)
+<<<<<<< Updated upstream
     * フルタイムでプログラマーとして働きはじめました。少人数のチームだったため様々なことを行う必要がありました。`Ruby on Rails`,`MySQL`,`GAS`,`RSpec`,`Circle CI`などのタスクを行いました。
     * 初のOSSコントリビュートを行いました。YouTube Analytics APIのドキュメントのリンクを修正するPRでした。https://github.com/googleapis/google-api-ruby-client/pull/1649
+=======
+    * フルタイムでプログラマーとして働きはじめました。少人数のチームだったため様々なことを行う必要がありました。`Ruby on Rails`/`JavaScript`/`MySQL`/`GAS`/`RSpec`/`Circle CI`など様々なタスクを行いました。
+    * 初のOSSコントリビュートを行いました。YouTube Analytics APIのドキュメントのリンクを修正するPRでした。 https://github.com/googleapis/google-api-ruby-client/pull/1649
+>>>>>>> Stashed changes
 
   * 2021年
     * Reactを学ぶためにカンバンアプリを作成しました。[kanbany](https://github.com/kijimaD/kanbany)
