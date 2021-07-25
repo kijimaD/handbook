@@ -4,7 +4,7 @@
   "description": "有用な情報をまとめたリポジトリ管理型Wikiです。",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx textlint *.md docs/*.md"
   },
   "repository": {
     "type": "git",
